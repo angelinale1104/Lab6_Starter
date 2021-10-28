@@ -1,0 +1,299 @@
+<script type="application/ld+json" class="yoast-schema-graph">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://tastesbetterfromscratch.com/#organization",
+            "name": "Tastes Better From Scratch",
+            "url": "https://tastesbetterfromscratch.com/",
+            "sameAs": [
+                "https://facebook.com/tastesbetterfromscratch/",
+                "https://www.instagram.com/tastesbetterfromscratch/",
+                "https://www.youtube.com/channel/UCuyxVXV2sdFuYYzOD32TlFw",
+                "https://www.pinterest.com/betrfromscratch/",
+                "https://twitter.com/Betrfromscratch"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://tastesbetterfromscratch.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/12/Circle-logo.jpg",
+                "contentUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/12/Circle-logo.jpg",
+                "width": 313,
+                "height": 316,
+                "caption": "Tastes Better From Scratch"
+            },
+            "image": {
+                "@id": "https://tastesbetterfromscratch.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://tastesbetterfromscratch.com/#website",
+            "url": "https://tastesbetterfromscratch.com/",
+            "name": "Tastes Better From Scratch",
+            "description": "Everything tastes better homemade!",
+            "publisher": {
+                "@id": "https://tastesbetterfromscratch.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://tastesbetterfromscratch.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15.jpg",
+            "contentUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15.jpg",
+            "width": 683,
+            "height": 1024,
+            "caption": "A bowl of Pho soup with chicken, cilantro, onion, basil, bean sprouts and a lime wedge."
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#webpage",
+            "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/",
+            "name": "Easy Homemade Pho - Tastes Better From Scratch",
+            "isPartOf": {
+                "@id": "https://tastesbetterfromscratch.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#primaryimage"
+            },
+            "datePublished": "2020-04-11T06:00:00+00:00",
+            "dateModified": "2021-09-14T22:26:25+00:00",
+            "description": "This easy Vietnamese Pho recipe is authentic in taste, without the work! It's made with rice noodles, broth, and choice of chicken, beef, pork or shrimp.",
+            "breadcrumb": {
+                "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://tastesbetterfromscratch.com/pho-noodle-soup/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://tastesbetterfromscratch.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Main Dish",
+                    "item": "https://tastesbetterfromscratch.com/category/main-dish/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Pho"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#article",
+            "isPartOf": {
+                "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#webpage"
+            },
+            "author": {
+                "@id": "https://tastesbetterfromscratch.com/#/schema/person/3e648c62cb5b08e6f78b81f055191a33"
+            },
+            "headline": "Pho",
+            "datePublished": "2020-04-11T06:00:00+00:00",
+            "dateModified": "2021-09-14T22:26:25+00:00",
+            "wordCount": 1769,
+            "commentCount": 20,
+            "publisher": {
+                "@id": "https://tastesbetterfromscratch.com/#organization"
+            },
+            "image": {
+                "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#primaryimage"
+            },
+            "thumbnailUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15.jpg",
+            "articleSection": [
+                "Chicken",
+                "Main Dish",
+                "Soup",
+                "Vietnamese"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://tastesbetterfromscratch.com/pho-noodle-soup/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://tastesbetterfromscratch.com/#/schema/person/3e648c62cb5b08e6f78b81f055191a33",
+            "name": "Lauren Allen",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://tastesbetterfromscratch.com/#personlogo",
+                "inLanguage": "en-US",
+                "url": "https://secure.gravatar.com/avatar/dc0dc9ed2f606a1bde316b7fff89c9a8?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/dc0dc9ed2f606a1bde316b7fff89c9a8?s=96&d=mm&r=g",
+                "caption": "Lauren Allen"
+            },
+            "description": "Welcome! I\u2019m Lauren, a mom of four and lover of good food. Here you\u2019ll find easy recipes and weeknight meal ideas made with real ingredients, with step-by-step photos and videos.",
+            "sameAs": [
+                "https://tastesbetterfromscratch.com/about/",
+                "https://www.facebook.com/Tastes-Better-From-Scratch-156826874478697/"
+            ],
+            "url": "https://tastesbetterfromscratch.com/about/"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Vietnamese Pho Soup",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren Allen"
+            },
+            "description": "This easy Vietnamese Pho recipe is authentic in taste, without the work! It&#039;s made with rice noodles, broth, and choice of chicken, beef, pork or shrimp.",
+            "datePublished": "2020-04-11T01:00:00+00:00",
+            "image": [
+                "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15.jpg",
+                "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15-500x500.jpg",
+                "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15-500x375.jpg",
+                "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Pho-15-480x270.jpg"
+            ],
+            "video": {
+                "name": "Pho",
+                "description": "This easy Vietnamese Pho Soup includes rice noodles in a flavorful broth with your choice of meat, and topped with fresh herbs and vegetables. It has authentic taste and flavor, without all of the work!",
+                "thumbnailUrl": "https://content.jwplatform.com/thumbs/NI2oXukZ-720.jpg",
+                "contentUrl": "https://content.jwplatform.com/videos/NI2oXukZ.mp4",
+                "uploadDate": "2020-04-11T19:46:43.000Z",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "6"
+            ],
+            "prepTime": "PT20M",
+            "cookTime": "PT40M",
+            "totalTime": "PT60M",
+            "recipeIngredient": [
+                "8 oz dried rice vermicelli noodles",
+                "Desired meat: chicken, pork, steak or raw shrimp* ((See notes))",
+                "1 large  yellow onion (, quartered)",
+                "2 (2-inch pieces) fresh ginger (, unpeeled and halved, length-wise)",
+                "6 cups broth  ((chicken, beef or vegetable, depending on protein choice))",
+                "2 cups water",
+                "1/4 tsp ground coriander",
+                "1  whole clove  ((optional))",
+                "1 1/2 Tablespoons fish sauce ((or less, to taste preference))",
+                "\u00bc teaspoon hoisin sauce",
+                "1/4 teaspoon soy sauce",
+                "\u00bc teaspoon red chili paste  ((sambal oelek))",
+                "1 stick  cinnamon",
+                "salt and freshly ground black pepper",
+                "4  green onions (, chopped)",
+                "2  fresh jalape\u00f1o peppers or red thai chili peppers (, thinly sliced and seeds removed)",
+                "1  bunch fresh cilantro (, chopped)",
+                "1  bunch Thai basil leaves",
+                "1 cup fresh bean sprouts",
+                "2  limes (, cut into wedges)",
+                "Sriracha hot sauce, or additional red chili paste (, for heat, optional)"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Place a large dry pot over medium heat add the onion halves and ginger pieces. Cook for 4 minutes, stirring occasionally.",
+                    "name": "Place a large dry pot over medium heat add the onion halves and ginger pieces. Cook for 4 minutes, stirring occasionally.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the broth, water, coriander, clove, fish sauce, hoisin sauce, soy sauce, chili garlic paste, cinnamon stick and a pinch of fresh cracked salt and pepper to the pot. Bring to a slow boil, then reduce heat and simmer for 30 minutes.",
+                    "name": "Add the broth, water, coriander, clove, fish sauce, hoisin sauce, soy sauce, chili garlic paste, cinnamon stick and a pinch of fresh cracked salt and pepper to the pot. Bring to a slow boil, then reduce heat and simmer for 30 minutes.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Meanwhile, prepare noodles according to package instructions. Once soft, drain, rinse and set aside.",
+                    "name": "Meanwhile, prepare noodles according to package instructions. Once soft, drain, rinse and set aside.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Ready the garnishes in individual small bowls for serving: cilantro, basil, green onions, bean sprouts, lime wedges and sliced chilies.",
+                    "name": "Ready the garnishes in individual small bowls for serving: cilantro, basil, green onions, bean sprouts, lime wedges and sliced chilies.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "1-5 minutes before the broth is done cooking, add desired meat to the broth to cook, just until done (2-3 minutes for raw, thinly sliced chicken or pork, 1-2 minutes for shrimp or thinly sliced steak).",
+                    "name": "1-5 minutes before the broth is done cooking, add desired meat to the broth to cook, just until done (2-3 minutes for raw, thinly sliced chicken or pork, 1-2 minutes for shrimp or thinly sliced steak).",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Discard the ginger, clove, cinnamon stick and onion pieces from the pot.",
+                    "name": "Discard the ginger, clove, cinnamon stick and onion pieces from the pot.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Divide the noodles among bowls; ladle broth on top (and meat). Add desired toppings.",
+                    "name": "Divide the noodles among bowls; ladle broth on top (and meat). Add desired toppings.",
+                    "url": "https://tastesbetterfromscratch.com/pho-noodle-soup/#wprm-recipe-27226-step-0-6"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "13"
+            },
+            "recipeCategory": [
+                "Main Course",
+                "Side Dish",
+                "Soup"
+            ],
+            "recipeCuisine": [
+                "Vietnamese"
+            ],
+            "keywords": "pho, pho noodle, pho noodle soup, pho soup, vietnamese pho, vietnamese pho soup",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "calories": "178 kcal",
+                "carbohydrateContent": "42 g",
+                "proteinContent": "3 g",
+                "fatContent": "1 g",
+                "saturatedFatContent": "1 g",
+                "cholesterolContent": "1 mg",
+                "sodiumContent": "1373 mg",
+                "fiberContent": "2 g",
+                "sugarContent": "5 g",
+                "servingSize": "1 serving"
+            },
+            "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#recipe",
+            "isPartOf": {
+                "@id": "https://tastesbetterfromscratch.com/pho-noodle-soup/#article"
+            },
+            "mainEntityOfPage": "https://tastesbetterfromscratch.com/pho-noodle-soup/#webpage"
+        }
+    ]
+}</script>
