@@ -5,13 +5,18 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/pho.json',
+  'assets/recipes/rice_cake.json',
+  'assets/recipes/carbonara.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
 // data will be added to this object below. You may use whatever you like for the
 // keys as long as it's unique, one suggestion might but the URL itself
-const recipeData = {}
+const recipeData = {};
+
+const extraRecipes = {};
 
 window.addEventListener('DOMContentLoaded', init);
 
@@ -46,15 +51,17 @@ async function fetchRecipes() {
     const array = [];
 
     // Fetch the links and add them to the recipeData object
-    recipes.forEach(link => {
+    recipes.forEach((link, index) => {
       array.push(
         fetch(link)
           .then(response => response.json())
-          .then(data => {recipeData[link] = data})
-          .catch(error => {reject(false)})
+          .then(data => { 
+            recipeData[link] = data;
+          })
+          .catch(() => {reject(false)})
       );
     });
-    
+
     // If the array contains no promises, then we can resolve it.
     Promise.all(array).then(
       () => {resolve(true);}
@@ -73,12 +80,12 @@ function createRecipeCards() {
   // Part 1 Expose - TODO
   let mainElem = document.querySelector('main');
   // Create <recipe-card> custom elements for each recipe link
-  recipes.forEach(link =>{
+  for (let i = 0; i < 3; i++){
     let element = document.createElement('recipe-card');
-    element.data = recipeData[link];
+    element.data = recipeData[recipes[i]];
     // Attach those <recipe-card> custom elements to main element
     mainElem.append(element);
-  });
+  }
 }
 
 function bindShowMore() {
@@ -90,4 +97,28 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  let button = document.querySelector('button');
+  let mainElem = document.querySelector('main');
+
+  button.addEventListener('click', (event) =>{
+    if(button.textContent == "Show more"){
+      button.textContent = 'Show less';
+
+      // Go through the last 3 recipes and append them to the webpage
+      for (let i = 3; i < recipes.length; i++){
+        let element = document.createElement('recipe-card');
+        element.data = recipeData[recipes[i]];
+        mainElem.append(element);
+      }
+    }
+    else{
+      button.textContent = 'Show more';
+
+      // Delete everything in main -> Blank page again
+      mainElem.innerHTML = "";
+
+      // Append only the first 3 recipes
+      createRecipeCards();
+    }
+  });
 }

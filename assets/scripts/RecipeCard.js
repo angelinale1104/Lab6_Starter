@@ -213,7 +213,7 @@ class RecipeCard extends HTMLElement {
  * @returns {*} the value of the found key
  */
 function searchForKey(object, key) {
-  var value;
+  let value;
   Object.keys(object).some(function (k) {
     if (k === key) {
       value = object[k];
