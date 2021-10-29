@@ -1,4 +1,4 @@
-<script type="application/ld+json" class="yoast-schema-graph">{
+{
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -296,4 +296,4 @@
             "mainEntityOfPage": "https://tastesbetterfromscratch.com/pho-noodle-soup/#webpage"
         }
     ]
-}</script>
+}
