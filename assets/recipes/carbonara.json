@@ -1,0 +1,282 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.jocooks.com/#organization",
+            "name": "Jo Cooks",
+            "url": "https://www.jocooks.com/",
+            "sameAs": [
+                "https://www.facebook.com/JoCooksRecipes",
+                "https://www.instagram.com/jocooks/",
+                "https://www.youtube.com/c/JoCismaru",
+                "http://www.pinterest.com/jocooks",
+                "https://twitter.com/jocooks_com"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://www.jocooks.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://www.jocooks.com/wp-content/uploads/2020/10/jocooks-round-logo.jpg",
+                "contentUrl": "https://www.jocooks.com/wp-content/uploads/2020/10/jocooks-round-logo.jpg",
+                "width": 300,
+                "height": 300,
+                "caption": "Jo Cooks"
+            },
+            "image": {
+                "@id": "https://www.jocooks.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.jocooks.com/#website",
+            "url": "https://www.jocooks.com/",
+            "name": "Jo Cooks",
+            "description": "Simple - Easy - Comfort",
+            "publisher": {
+                "@id": "https://www.jocooks.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://www.jocooks.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg",
+            "contentUrl": "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg",
+            "width": 640,
+            "height": 896,
+            "caption": "side view shot of tongs holding up some creamy carbonara"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#webpage",
+            "url": "https://www.jocooks.com/recipes/creamy-carbonara/",
+            "name": "Creamy Carbonara - Jo Cooks",
+            "isPartOf": {
+                "@id": "https://www.jocooks.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#primaryimage"
+            },
+            "datePublished": "2019-06-13T00:40:46+00:00",
+            "dateModified": "2020-02-28T19:04:25+00:00",
+            "description": "This Creamy Carbonara recipe is a plate of heavenly, creamy pasta. Silky spaghetti with crispy pancetta in a super creamy and cheesy sauce.",
+            "breadcrumb": {
+                "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://www.jocooks.com/recipes/creamy-carbonara/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.jocooks.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Recipes",
+                    "item": "https://www.jocooks.com/category/recipes/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Creamy Carbonara"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#article",
+            "isPartOf": {
+                "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#webpage"
+            },
+            "author": {
+                "@id": "https://www.jocooks.com/#/schema/person/b773e7bca51cae7852c73f000e3724d0"
+            },
+            "headline": "Creamy Carbonara",
+            "datePublished": "2019-06-13T00:40:46+00:00",
+            "dateModified": "2020-02-28T19:04:25+00:00",
+            "wordCount": 828,
+            "commentCount": 169,
+            "publisher": {
+                "@id": "https://www.jocooks.com/#organization"
+            },
+            "image": {
+                "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg",
+            "keywords": [
+                "bacon",
+                "basil",
+                "heavy cream",
+                "parmesan",
+                "spaghetti",
+                "spaghetti alla carbonara"
+            ],
+            "articleSection": [
+                "30 Minutes or Less",
+                "Dinner",
+                "Italian",
+                "Lunch",
+                "Pasta",
+                "Pork",
+                "Recipes"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://www.jocooks.com/recipes/creamy-carbonara/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.jocooks.com/#/schema/person/b773e7bca51cae7852c73f000e3724d0",
+            "name": "Joanna Cismaru",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://www.jocooks.com/#personlogo",
+                "inLanguage": "en-US",
+                "url": "https://secure.gravatar.com/avatar/d46cf2bfdd57c5e3a6c87cdd88142462?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/d46cf2bfdd57c5e3a6c87cdd88142462?s=96&d=mm&r=g",
+                "caption": "Joanna Cismaru"
+            },
+            "description": "I\u2019m Joanna (Jo for short) and this is my blog where I share with you my culinary adventures. Here you will find a variety of recipes using simple everyday ingredients and creating wonderful, delicious and comforting meals, including some decadent desserts.",
+            "sameAs": [
+                "https://www.jocooks.com",
+                "https://twitter.com/http://jocooks_com"
+            ],
+            "url": "https://www.jocooks.com/author/jo/"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Creamy Carbonara",
+            "author": {
+                "@type": "Person",
+                "name": "Joanna Cismaru"
+            },
+            "description": "This Creamy Carbonara\u00a0recipe is a plate of heavenly, creamy pasta. Silky spaghetti with crispy pancetta in a super creamy and cheesy sauce. Simply delicious and so easy to make at home.",
+            "datePublished": "2019-06-12T18:40:46+00:00",
+            "image": [
+                "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg",
+                "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1-500x500.jpg",
+                "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1-500x375.jpg",
+                "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1-480x270.jpg"
+            ],
+            "video": {
+                "name": "Creamy Carbonara",
+                "description": "This Creamy Carbonara is a plate of heavenly, creamy pasta. Silky spaghetti with crispy pancetta in a super creamy and cheesy sauce. Simply delicious and so easy to make them at home.",
+                "thumbnailUrl": "https://content.jwplatform.com/thumbs/ORHgriGY-720.jpg",
+                "contentUrl": "https://content.jwplatform.com/videos/ORHgriGY.mp4",
+                "uploadDate": "2018-04-10T19:23:48.000Z",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "4"
+            ],
+            "prepTime": "PT5M",
+            "cookTime": "PT25M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "8 ounces spaghetti (uncooked)",
+                "6 ounce pancetta (chopped)",
+                "2 cups half and half",
+                "2 large egg yolks",
+                "1 \u00bd cups Parmesan cheese (freshly grated, plus more for garnish)",
+                "1 teaspoon pepper (freshly ground)",
+                "4 tablespoon basil (chopped)"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Bring a large pot of salted water to boil over high heat. Add the pasta and cook according to package instructions. Drain and set aside.",
+                    "name": "Bring a large pot of salted water to boil over high heat. Add the pasta and cook according to package instructions. Drain and set aside.",
+                    "url": "https://www.jocooks.com/recipes/creamy-carbonara/#wprm-recipe-15235-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the pancetta to a large skillet and saute over medium-low heat until crisp, about 8 minutes. Transfer the pancetta to a bowl using a slotted spoon.",
+                    "name": "Add the pancetta to a large skillet and saute over medium-low heat until crisp, about 8 minutes. Transfer the pancetta to a bowl using a slotted spoon.",
+                    "url": "https://www.jocooks.com/recipes/creamy-carbonara/#wprm-recipe-15235-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the half and half to the skillet and bring to a simmer. Whisk the egg yolks into the sauce. Whisk in the Parmesan cheese. Stir in the black pepper. Taste for salt and season if needed. I find no salt is needed since the cheese adds plenty of saltiness.",
+                    "name": "Add the half and half to the skillet and bring to a simmer. Whisk the egg yolks into the sauce. Whisk in the Parmesan cheese. Stir in the black pepper. Taste for salt and season if needed. I find no salt is needed since the cheese adds plenty of saltiness.",
+                    "url": "https://www.jocooks.com/recipes/creamy-carbonara/#wprm-recipe-15235-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the cooked spaghetti, bacon and basil to the skillet and toss well to combine.&nbsp;",
+                    "name": "Add the cooked spaghetti, bacon and basil to the skillet and toss well to combine.&nbsp;",
+                    "url": "https://www.jocooks.com/recipes/creamy-carbonara/#wprm-recipe-15235-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Garnish with more Parmesan cheese if desired and serve immediately.",
+                    "name": "Garnish with more Parmesan cheese if desired and serve immediately.",
+                    "url": "https://www.jocooks.com/recipes/creamy-carbonara/#wprm-recipe-15235-step-0-4"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "ratingCount": "1291"
+            },
+            "recipeCategory": [
+                "Main Course"
+            ],
+            "recipeCuisine": [
+                "Italian"
+            ],
+            "keywords": "carbonara, italian food, pasta",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "calories": "721 kcal",
+                "carbohydrateContent": "49 g",
+                "proteinContent": "31 g",
+                "fatContent": "43 g",
+                "saturatedFatContent": "21 g",
+                "cholesterolContent": "190 mg",
+                "sodiumContent": "939 mg",
+                "fiberContent": "1 g",
+                "sugarContent": "2 g",
+                "servingSize": "1 serving"
+            },
+            "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#recipe",
+            "isPartOf": {
+                "@id": "https://www.jocooks.com/recipes/creamy-carbonara/#article"
+            },
+            "mainEntityOfPage": "https://www.jocooks.com/recipes/creamy-carbonara/#webpage"
+        }
+    ]
+}
