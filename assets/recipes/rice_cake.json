@@ -1,0 +1,223 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://www.koreanbapsang.com/#website",
+            "url": "https://www.koreanbapsang.com/",
+            "name": "Korean Bapsang",
+            "description": "a Korean mom&#039;s home cooking",
+            "publisher": {
+                "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": "https://www.koreanbapsang.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3132-3-3.jpg",
+            "width": 1080,
+            "height": 1618,
+            "caption": "Red spicy Korean rice cake called tteokbokki in a large plate"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#webpage",
+            "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/",
+            "name": "Tteokbokki (Spicy Stir-fried Rice Cakes) - Korean Bapsang",
+            "isPartOf": {
+                "@id": "https://www.koreanbapsang.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#primaryimage"
+            },
+            "datePublished": "2018-09-04T15:59:00+00:00",
+            "dateModified": "2021-04-12T00:09:32+00:00",
+            "description": "Tteokbokki (or ddukbokki) is No. 1 street food in Korea. Make the best Korean spicy rice cake at home with this easy recipe! Simply addictive!",
+            "breadcrumb": {
+                "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://www.koreanbapsang.com/",
+                        "url": "https://www.koreanbapsang.com/",
+                        "name": "Home"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://www.koreanbapsang.com/category/noodles-and-rice/",
+                        "url": "https://www.koreanbapsang.com/category/noodles-and-rice/",
+                        "name": "Noodles and Rice"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/",
+                        "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/",
+                        "name": "Tteokbokki (Spicy Stir-fried Rice Cakes)"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#article",
+            "isPartOf": {
+                "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#webpage"
+            },
+            "author": {
+                "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+            },
+            "headline": "Tteokbokki (Spicy Stir-fried Rice Cakes)",
+            "datePublished": "2018-09-04T15:59:00+00:00",
+            "dateModified": "2021-04-12T00:09:32+00:00",
+            "commentCount": 233,
+            "publisher": {
+                "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+            },
+            "image": {
+                "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC9589-3.jpg",
+            "keywords": "ddeokbokki,ddukbokki,rice cake,rice cake ingredients,spicy,spicy rice cake,street food,topokki,tteokbokki",
+            "articleSection": "Appetizer/Snack,Favorites,Noodles and Rice,Recipes",
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": [
+                "Person",
+                "Organization"
+            ],
+            "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff",
+            "name": "Hyosun",
+            "logo": {
+                "@id": "https://www.koreanbapsang.com/#personlogo"
+            },
+            "sameAs": [
+                "https://www.koreanbapsang.com/"
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Tteokbokki - Spicy stir-fried rice cakes",
+            "author": {
+                "@type": "Person",
+                "name": "Hyosun"
+            },
+            "description": "Tteokbokki, a spicy stir-fried rice cake dish, is a highly popular Korean street food and a delicious comfort food you can easily make at home. The spicy, slightly sweet, and chewy rice cakes are simply addictive!&nbsp;&nbsp;",
+            "datePublished": "2018-09-04T11:59:00+00:00",
+            "image": [
+                "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3132-3-3.jpg",
+                "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3132-3-3-500x500.jpg",
+                "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3132-3-3-500x375.jpg",
+                "https://www.koreanbapsang.com/wp-content/uploads/2018/09/DSC3132-3-3-480x270.jpg"
+            ],
+            "recipeYield": [
+                "3"
+            ],
+            "prepTime": "PT10M",
+            "cookTime": "PT20M",
+            "totalTime": "PT30M",
+            "recipeIngredient": [
+                "1 pound tteokbokki tteok \ub5a1\ubcf6\uc774 \ub5a1 (about 24 3-inch long rice cake pieces)  (See Note 1)",
+                "1  sheet eomuk \uc5b4\ubb35 (fish cake)",
+                "4 ounces green cabbage (yangbaechu, \uc591\ubc30\ucd94)",
+                "1 - 2  scallions",
+                "3 cups anchovy broth (or water (use 4 cups for more sauce))",
+                "3 tablespoons Korean red chili pepper paste (gochujang, \uace0\ucd94\uc7a5) (See Note 2)",
+                "1 - 3 teaspoons Korean red chili pepper flakes (gochugaru, \uace0\ucd94\uac00\ub8e8) - preferably finely ground (See Note 3)",
+                "1 tablespoon soy sauce",
+                "2 tablespoons sugar (or use 1 tablespoon if you like it less sweet)",
+                "1 tablespoon corn syrup (or 1 more tablespoon sugar)",
+                "1 tablespoon  minced garlic"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Make anchovy broth (see note). Soak the rice cakes for about 20 minutes if hardened or refrigerated. Cut the fish cake, cabbage, and scallions into about 2-inch long pieces.",
+                    "name": "Make anchovy broth (see note). Soak the rice cakes for about 20 minutes if hardened or refrigerated. Cut the fish cake, cabbage, and scallions into about 2-inch long pieces.",
+                    "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#wprm-recipe-6417-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the anchovy broth (or water) to a large pan. Stir in the sauce ingredients. Bring it to a boil over medium high heat, stirring to dissolve the red chili pepper paste (gochujang).",
+                    "name": "Add the anchovy broth (or water) to a large pan. Stir in the sauce ingredients. Bring it to a boil over medium high heat, stirring to dissolve the red chili pepper paste (gochujang).",
+                    "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#wprm-recipe-6417-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the rice cakes. Boil until the rice cakes become very soft and the sauce is thickened, about 8 - 10 minutes. Stir frequently so the rice cakes don't stick to the bottom of the pan.",
+                    "name": "Add the rice cakes. Boil until the rice cakes become very soft and the sauce is thickened, about 8 - 10 minutes. Stir frequently so the rice cakes don't stick to the bottom of the pan.",
+                    "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#wprm-recipe-6417-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the vegetables and fish cakes. Continue to boil, stirring constantly, for an additional 4 - 6 minutes. Depending on rice cakes, you may need more time to reach a desired level of softness. Add more broth or water as necessary. Taste the sauce, and adjust the seasoning if needed. Serve immediately.",
+                    "name": "Add the vegetables and fish cakes. Continue to boil, stirring constantly, for an additional 4 - 6 minutes. Depending on rice cakes, you may need more time to reach a desired level of softness. Add more broth or water as necessary. Taste the sauce, and adjust the seasoning if needed. Serve immediately.",
+                    "url": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#wprm-recipe-6417-step-0-3"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.41",
+                "ratingCount": "328"
+            },
+            "recipeCategory": [
+                "Appetizer",
+                "Snack"
+            ],
+            "recipeCuisine": [
+                "Asian",
+                "Korean"
+            ],
+            "keywords": "ddukbokki, Korean rice cake, rice cake, rice cake sauce, topokki, tteokbokki ingredients, tteokbokki sauce",
+            "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#recipe",
+            "isPartOf": {
+                "@id": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#article"
+            },
+            "mainEntityOfPage": "https://www.koreanbapsang.com/tteokbokki-spicy-stir-fried-rice-cakes/#webpage"
+        }
+    ]
+}
